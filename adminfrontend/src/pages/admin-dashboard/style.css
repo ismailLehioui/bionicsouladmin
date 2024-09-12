@@ -1,0 +1,16 @@
+/* style.css */
+.custom-button {
+    background-color: #fadb14;
+    /* Jaune */
+    border-color: #fadb14;
+    /* Jaune */
+    color: #fff;
+    /* Texte blanc */
+}
+
+.custom-button:hover {
+    background-color: #e4b700;
+    /* Jaune plus foncé */
+    border-color: #e4b700;
+    /* Jaune plus foncé */
+}
