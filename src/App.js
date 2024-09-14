@@ -13,7 +13,7 @@ function App() {
   const user = useSelector((state) => state.auth.user);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/register" element={user ? <Navigate to="/dashboard" /> : <Register />} />
         <Route path="/login" element={user ? <Navigate to="/dashboard" /> : <Login />} />
