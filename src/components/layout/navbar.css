@@ -1,0 +1,7 @@
+.profile-image {
+    width: 50px; /* Taille du cercle (ajustez selon vos besoins) */
+    height: 50px; /* Taille du cercle (ajustez selon vos besoins) */
+    border-radius: 50%; /* Rendre l'image circulaire */
+    object-fit: cover; /* Assurer que l'image s'adapte bien au cercle */
+  }
+  

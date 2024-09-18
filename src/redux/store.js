@@ -5,6 +5,7 @@ import { productReducer } from "./slices/productSlice";
 import { partnerReducer } from "./slices/partnerSlice";
 import { contactReducer } from "./slices/contactSlice";
 import { awardReducer } from "./slices/awardSlice";
+import { userReducer } from "./slices/userSlice";
 
 const store = configureStore({
     reducer: {
@@ -13,7 +14,8 @@ const store = configureStore({
         product: productReducer,
         partner: partnerReducer,
         contact: contactReducer,
-        award: awardReducer
+        award: awardReducer,
+        user: userReducer
 
     },
     devTools: true
