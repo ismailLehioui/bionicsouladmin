@@ -31,7 +31,7 @@ export function registerUser(user) {
       dispatch(authActions.register(data.message));
       // dispatch(authActions.notRegister(null));
     } catch (error) {
-      dispatch(authActions.notRegister(error.response.data.message));
+      // dispatch(authActions.notRegister(error.response.data.message));
       // dispatch(authActions.notRegister(null));
       
     }
